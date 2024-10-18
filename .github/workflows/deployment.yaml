@@ -8,6 +8,7 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
 
-    steps:
+    step:
       - name: Basic testing
       run: echo "Mainak"
+      
