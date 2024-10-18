@@ -13,5 +13,5 @@ jobs:
         run: echo "Mainak"
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Artifacts making 
-        uses: actions/upload-pages-artifact@v3
+      - name: Configure pages 
+        uses: actions/configure-pages@v5
