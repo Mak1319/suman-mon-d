@@ -11,4 +11,6 @@ jobs:
     steps:
       - name: Basic testing
         run: echo "Mainak"
+      - name: Checkout
+        uses: actions/checkout@v4
       
